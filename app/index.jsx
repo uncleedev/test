@@ -9,6 +9,10 @@ export default function index() {
     const [password, setPassword] = useState("")
 
     const signIn = async () => {
+        
+    }
+    
+    const  signUp = async () => {
         try {
             await getAuth().createUserWithEmailAndPassword(email, password)
             Alert.alert("successfully created!")
@@ -17,10 +21,6 @@ export default function index() {
             Alert.alert("Inavlid")
             console.log("Invalid")
         }
-    }
-    
-    const  signUp = () => {
-    
     }
 
   return (
@@ -57,7 +57,7 @@ export default function index() {
       </View>
       <Button 
         title='Login'
-        onPress={signIn}
+        onPress={signUp}
       />
     </View>
   )
