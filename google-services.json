@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "324074343432",
+    "project_id": "fir-4caf2",
+    "storage_bucket": "fir-4caf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324074343432:android:d4b634d26e8fa15b6fd5bd",
+        "android_client_info": {
+          "package_name": "com.uncl3dev.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324074343432-dbb3cu1apoks37gdjc88u7f89tiv126t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWVG3ZvIk7xTlX7mIIKsKILZyiP37Wfcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324074343432-dbb3cu1apoks37gdjc88u7f89tiv126t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "324074343432-ue5la832is8ip3qjohlb3tfmeskseaqp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.uncl3dev.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
